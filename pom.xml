@@ -17,29 +17,16 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 <version>4.8.2</version>
 <scope>test</scope>
 </dependency>
+
+<!-- https://mvnrepository.com/artifact/com.heroku/webapp-runner-main -->
+<dependency>
+    <groupId>com.heroku</groupId>
+    <artifactId>webapp-runner-main</artifactId>
+    <version>8.5.50.0</version>
+</dependency>
+
 </dependencies>
     <build>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-dependency-plugin</artifactId>
-            <version>2.3</version>
-            <executions>
-                <execution>
-                    <phase>package</phase>
-                    <goals><goal>copy</goal></goals>
-                    <configuration>
-                        <artifactItems>
-                            <artifactItem>
-                         <groupId>com.github.jsimone</groupId>
-                        <artifactId>webapp-runner</artifactId>
-                                <version>8.0.30.2</version>
-                     <destFileName>webapp-runner.jar</destFileName>
-                            </artifactItem>
-                        </artifactItems>
-                    </configuration>
-                </execution>
-            </executions>
-        </plugin>
         <finalName>samplewebapp</finalName>
     </build>
 
