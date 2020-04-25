@@ -11,9 +11,9 @@ this stuff is worth it, you can buy me a beer in return Daniel Bimschas
 
 <html>
     <head>
-        <title>Template-Guice-Jersey-Tomcat</title>
+        <title>Test</title>
     </head>
     <body>
-        <h1>Template-Guice-Jersey-Tomcat</h1>
+        <h1>Test App</h1>
     </body>
 </html>
